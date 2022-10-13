@@ -58,7 +58,7 @@ function ToDo() {
           sx={{
             mt: "30px",
             bgcolor: "#cfe8fc",
-            height: "30vh",
+            height: "40vh",
             borderRadius: "10px",
             boxShadow:
               "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
@@ -66,7 +66,7 @@ function ToDo() {
         >
           <Box
             sx={{
-              "& > :not(style)": { m: "10%", width: "80%" },
+              "& > :not(style)": { m: "30px 10%", width: "80%" },
             }}
             noValidate
           >
@@ -80,7 +80,7 @@ function ToDo() {
           <Avatar
             sx={{
               bgcolor: green[500],
-              m: "10px 10%",
+              m: "0px 10%",
               width: "80%",
               height: 40,
               color: "white",
